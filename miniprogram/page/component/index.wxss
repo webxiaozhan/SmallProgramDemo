@@ -1,1 +1,7 @@
-/* miniprogram/pages/component/index.wxss */
+/* miniprogram/page/component/index.wxss */
+@import "../common/index.wxss";
+
+.weui-agree__link {
+  display: inline;
+  color: #586c94;
+}

@@ -1,4 +1,4 @@
-// miniprogram/pages/component/index.js
+// miniprogram/page/component/index.js
 Page({
 
   /**

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "page/component/index",
     "page/index/index",
     "page/userConsole/userConsole",
     "page/storageConsole/storageConsole",
@@ -13,11 +14,11 @@
     "page/openapi/cloudid/cloudid",
     "page/im/im",
     "page/im/room/room",
-    "page/component/page",
-    "page/component/index",
     "page/weui/example/index",
     "page/API/index",
-    "page/cloud/index"
+    "page/cloud/index",
+    "page/weui/components/tabbar/tabbar"
+
   ],
   "window": {
     "backgroundColor": "#F8F8F8",
