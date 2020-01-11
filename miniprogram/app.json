@@ -1,25 +1,63 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "page/component/index",
+    "page/index/index",
+    "page/userConsole/userConsole",
+    "page/storageConsole/storageConsole",
+    "page/databaseGuide/databaseGuide",
+    "page/addFunction/addFunction",
+    "page/deployFunctions/deployFunctions",
+    "page/chooseLib/chooseLib",
+    "page/openapi/openapi",
+    "page/openapi/serverapi/serverapi",
+    "page/openapi/callback/callback",
+    "page/openapi/cloudid/cloudid",
+    "page/im/im",
+    "page/im/room/room",
+    "page/weui/example/index",
+    "page/API/index",
+    "page/cloud/index",
+    "page/weui/components/tabbar/tabbar"
+
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#F8F8F8",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "演示",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/component/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "page/weui/example/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "扩展组件"
+      },
+      {
+        "pagePath": "page/API/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "接口"
+      },
+      {
+        "pagePath": "page/cloud/index",
+        "iconPath": "image/icon_cloud.png",
+        "selectedIconPath": "image/icon_cloud_HL.png",
+        "text": "云开发"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
